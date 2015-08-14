@@ -3,7 +3,7 @@ FROM chrisrock/openstack-cli
 MAINTAINER Jannis Rake-Revelant <jannis@rake-revelant.de>
 
 
-ENV TERRAFORM_VERSION 0.5.3
+ENV TERRAFORM_VERSION 0.6.3
 
 
 RUN apt-get update -qq && \
